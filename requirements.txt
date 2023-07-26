@@ -1,0 +1,2 @@
+quartodoc
+rsconnect-python @ git+https://github.com/rstudio/rsconnect-python.git@22dac9cf26284e4c37cccf7394f339f3c79a3304

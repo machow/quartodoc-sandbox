@@ -1,0 +1,36 @@
+project:
+  type: website
+  render:
+    - README.md
+    - "*.qmd"
+
+metadata-files:
+  - _sidebar.yml
+
+quartodoc:
+  package: rsconnect
+  parser: sphinx
+
+  sidebar: _sidebar.yml
+
+  sections:
+    - title: some functions
+      desc: some description
+      contents:
+        - actions
+        - bundle
+        - environment
+        - http_support
+        - json_web_token
+        - log
+        - metadata
+        - models
+
+
+website: 
+  title: rsconnect
+  navbar: 
+    left: 
+      #- href: README.md
+      #  text: Home
+      - href: reference/index.qmd
